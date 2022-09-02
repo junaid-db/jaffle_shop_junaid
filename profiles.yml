@@ -5,6 +5,6 @@ jaffle_shop:
      type: databricks
      method: http
      schema: "default"
-     host: "{{ env_var('e2-demo-field-eng.cloud.databricks.com') }}"
-     http_path: "/sql/1.0/endpoints/8e18529d7ca3b00f"
-     token: "{{ env_var('dapid5df40a8528ef99b86e1bd278cf8d2d0') }}"
+     host: e2-demo-field-eng.cloud.databricks.com
+     http_path: /sql/1.0/endpoints/8e18529d7ca3b00f
+     token: dapid5df40a8528ef99b86e1bd278cf8d2d0
