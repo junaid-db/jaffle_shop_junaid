@@ -1,4 +1,4 @@
-jaffle_shop_junaid:
+jaffle_shop:
  target: databricks_job
  outputs:
    databricks_job:
