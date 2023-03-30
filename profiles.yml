@@ -1,10 +1,10 @@
-jaffle_shop:
- target: databricks_job
- outputs:
-   databricks_job:
-     type: databricks
-     method: http
-     schema: "retail_junaid_shaikh"
-     host: e2-demo-field-eng.cloud.databricks.com
-     http_path: /sql/1.0/endpoints/8e18529d7ca3b00f
-     token: dapid5df40a8528ef99b86e1bd278cf8d2d0
+ jaffle_shop:
+   target: databricks_job
+   outputs:
+     databricks_job:
+      type: databricks
+      method: http
+      schema: "junaid_demos.jaffle_shop_default"
+      host: "e2-demo-field-eng.cloud.databricks.com"
+      http_path: "/sql/1.0/warehouses/9eef99ccff460b3a"
+      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
