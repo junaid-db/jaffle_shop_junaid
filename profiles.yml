@@ -6,6 +6,6 @@
       method: http
       catalog: "junaid_demos"
       schema: "jaffle_shop_default"
-      host: "e2-demo-field-eng.cloud.databricks.com"
-      http_path: "/sql/1.0/warehouses/9eef99ccff460b3a"
+      host: ""
+      http_path: ""
       token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
